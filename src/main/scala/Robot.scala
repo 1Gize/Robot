@@ -21,7 +21,7 @@ class Robot(x1: Int, y1: Int, dir: String) {
         case "north" => x = x + 1
         case "south" => x = x - 1
         case "east" => y = y + 1
-        case "west" => y = y + 1
+        case "west" => y = y - 1
       }
     }
   }
